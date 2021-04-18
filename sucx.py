@@ -11,6 +11,11 @@ import re
 #This program is a port scanner, that has the following scan options: tcp SYN / UDP / tcp Connect / XMAS == SUCX.
 #Then it gives the user the option to put in an End port (starting from port 1).
 
+### Example usage ### 
+#Enter Target IP:
+#Starting from Port 1, type in the end Port (max = 65535): 
+#Enter the Scan-type (SYN = s / UDP = u / CON = c / XMAS = x):
+
 socket.setdefaulttimeout(0.6)
 starttime = time.time()
 print_lock = threading.Lock()
